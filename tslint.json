@@ -1,0 +1,31 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "rules": {
+    "ordered-imports": false,
+    "no-magic-numbers": [false],
+    "interface-name": false,
+    "no-implicit-dependencies": false,
+    "no-floating-promises": [true, "Promise"],
+    "comment-format": [true, "check-space"],
+    "no-any": false,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "object-literal-sort-keys": false,
+    "no-console": false,
+    "no-debugger": false,
+    "no-submodule-imports": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  }
+}
