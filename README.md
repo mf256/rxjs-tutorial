@@ -36,7 +36,7 @@ How to run this project.
 1. Clone this repo
 
 2. Go to project folder and install dependencies
-`$ yarn install`
+`$ yarn --ignore-engines`
 
 3. Now start dev server by running
 `$ yarn start`
